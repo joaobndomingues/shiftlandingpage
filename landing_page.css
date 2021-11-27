@@ -1,0 +1,1088 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+/* landing page 2 */
+
+#home{
+    position: relative;
+    width: 1440px;
+    height: 3016px;
+
+    background: linear-gradient(15.88deg, #B215C6 0%, #4B2AE0 100%);
+}
+
+
+/* forma 1 */
+/*
+position: absolute;
+width: 1252px;
+height: 1252px;
+left: 1775px;
+top: 2277px;
+
+background: url(.png);
+box-shadow: 0px 4px 30px 1px rgba(143, 28, 207, 0.3);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* forma 2 */
+/*
+position: absolute;
+width: 1252px;
+height: 1252px;
+left: 1775px;
+top: 2277px;
+
+background: url(.png);
+filter: drop-shadow(0px 4px 20px #4B2AE0);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+*/
+
+
+/* forma 5 */
+/*
+position: absolute;
+width: 958.5px;
+height: 958.5px;
+left: 740.5px;
+top: 691px;
+
+background: url(.png);
+box-shadow: 0px 4px 30px 1px rgba(143, 28, 207, 0.3);
+transform: rotate(90deg);
+*/
+
+/* forma 6 */
+/*
+position: absolute;
+width: 813.71px;
+height: 813.71px;
+left: 634.97px;
+top: 746.98px;
+
+background: url(.png);
+filter: drop-shadow(0px 4px 30px #4B2AE0);
+transform: rotate(90deg);
+
+
+/* forma 10 */
+/*
+position: absolute;
+width: 878.91px;
+height: 878.91px;
+left: -221px;
+top: 2473.48px;
+
+background: url(.png);
+box-shadow: 0px 4px 30px 1px rgba(143, 28, 207, 0.3);
+transform: matrix(0.71, 0.71, 0.71, -0.71, 0, 0);
+
+
+/* forma 11 */
+/*
+position: absolute;
+width: 813.71px;
+height: 813.71px;
+left: -161px;
+top: 2588.69px;
+
+background: url(.png);
+filter: drop-shadow(0px 4px 30px #4B2AE0);
+transform: matrix(0.87, 0.5, 0.5, -0.87, 0, 0);
+
+
+/* perfil s:fundo 1 */
+/*
+position: absolute;
+width: 107px;
+height: 107px;
+left: 666px;
+top: 22px;
+
+background: url(.png);
+
+
+/* Hi! Have you met Shift APPens? It’s a Hackathon, organized by NEI and jeKnowledge with love. Come join us at Coimbra, the well known city of students, bring your friends or your co-workers, and get ready for some fun, competition and companionship! Don’t miss out on this opportunity, come be a part of Shift APPens’s History! A little tip: you can start by clicking the blue button below. */
+.text p{
+    position: absolute;
+    width: 787px;
+    height: 333px;
+    left: 326px;
+    top: 1261px;
+    
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 27px;
+    /* or 108% */
+
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+
+/* Button */
+/*
+position: absolute;
+width: 143px;
+height: 45px;
+left: 648px;
+top: 1486px;
+
+background: linear-gradient(90deg, #4053FF 0%, #2131C4 100%);
+box-shadow: 0px 3px 2px rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+
+
+/* CLICK ME */
+/*
+position: absolute;
+left: 22.38%;
+right: 22.38%;
+top: 35.56%;
+bottom: 35.56%;
+
+font-family: Hind;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* or 139% */
+/*
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* forma 1 */
+/*
+position: absolute;
+width: 1014px;
+height: 1014px;
+left: 590px;
+top: -308px;
+
+background: url(.png);
+box-shadow: 0px 4px 30px 1px rgba(143, 28, 207, 0.3);
+transform: rotate(90deg);
+
+
+/* forma 2 */
+/*
+position: absolute;
+width: 1014px;
+height: 1014px;
+left: 590px;
+top: -308px;
+
+background: url(.png);
+filter: drop-shadow(0px 4px 20px #4B2AE0);
+transform: rotate(90deg);
+
+
+/* forma 8 */
+/*
+position: absolute;
+width: 1014px;
+height: 1014px;
+left: 1455.89px;
+top: 1597.44px;
+
+background: url(.png);
+filter: drop-shadow(0px 4px 20px #4B2AE0);
+transform: matrix(-0.97, -0.26, -0.26, 0.97, 0, 0);
+
+
+/* forma 9 */
+/*
+position: absolute;
+width: 929.58px;
+height: 929.58px;
+left: 1405.58px;
+top: 1486px;
+
+background: url(.png);
+filter: drop-shadow(0px 4px 20px #4B2AE0);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Shift Appens */
+.title h1{
+    position: absolute;
+    width: 743.13px;
+    height: 131px;
+    left: 348px;
+    top: 322px;
+    
+    font-family: "Mopster", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 109.564px;
+    line-height: 131px;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+
+
+/* forma 3 */
+/*
+position: absolute;
+width: 1103px;
+height: 1104px;
+left: 710px;
+top: 350px;
+
+background: url(.png);
+filter: drop-shadow(0px 4px 30px #B215C6);
+
+
+/* forma 4 */
+/*
+position: absolute;
+width: 1103px;
+height: 1104px;
+left: 740px;
+top: 276px;
+
+background: url(.png);
+filter: drop-shadow(0px 4px 30px #4B2AE0);
+
+
+/* video past year */
+/*
+position: absolute;
+width: 900px;
+height: 492px;
+left: 270px;
+top: 2004px;
+
+
+
+/* Video */
+/*
+position: absolute;
+width: 900px;
+height: 492px;
+left: 270px;
+top: 2004px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(.png);
+border-radius: 18px;
+
+
+/* Barra */
+/*
+position: absolute;
+width: 900px;
+height: 48px;
+left: 270px;
+top: 2448px;
+
+background: #242629;
+
+
+/* Icons Barra */
+/*
+position: absolute;
+width: 840px;
+height: 34px;
+left: 302px;
+top: 2455px;
+
+
+
+/* fullscreen_24px */
+/*
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1118px;
+top: 2460px;
+
+
+
+/* icon/navigation/fullscreen_24px */
+/*
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #FFFFFF;
+
+
+/* Path */
+/*
+position: absolute;
+left: 20.83%;
+right: 58.33%;
+top: 58.33%;
+bottom: 20.83%;
+
+background: #DADADA;
+
+
+/* Path */
+/*
+position: absolute;
+left: 20.83%;
+right: 58.33%;
+top: 20.83%;
+bottom: 58.33%;
+
+background: #DADADA;
+
+
+/* Path */
+/*
+position: absolute;
+left: 58.33%;
+right: 20.83%;
+top: 58.33%;
+bottom: 20.83%;
+
+background: #DADADA;
+
+
+/* Path */
+/*
+position: absolute;
+left: 58.33%;
+right: 20.83%;
+top: 20.83%;
+bottom: 58.33%;
+
+background: #DADADA;
+
+
+/* settings_24px */
+/*
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1069px;
+top: 2460px;
+
+
+
+/* icon/action/settings_24px */
+/*
+position: absolute;
+left: 8.81%;
+right: 8.81%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #FFFFFF;
+
+
+/* Path */
+/*
+position: absolute;
+left: 8.81%;
+right: 8.81%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #DADADA;
+
+
+/* Path */
+/*
+position: absolute;
+left: 35.4%;
+right: 35.44%;
+top: 35.42%;
+bottom: 35.42%;
+
+background: #DADADA;
+
+
+/* Move +10 */
+/*
+position: absolute;
+width: 24px;
+height: 24px;
+left: 756px;
+top: 2460px;
+
+
+
+/* Move +10 */
+/*
+position: absolute;
+width: 24px;
+height: 24px;
+left: 780px;
+top: 2460px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* icon/av/replay_30_24px */
+/*
+position: absolute;
+left: 83.33%;
+right: -50%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #FFFFFF;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Shape */
+/*
+position: absolute;
+left: 83.33%;
+right: -50%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #DADADA;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* -10 */
+/*
+position: absolute;
+visibility: hidden;
+left: 66.67%;
+right: 0%;
+top: 54.17%;
+bottom: 29.17%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 5px;
+line-height: 7px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* +10 */
+/*
+position: absolute;
+width: 9px;
+height: 4px;
+left: 764px;
+top: 2473px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 5px;
+line-height: 7px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* play_arrow_24px */
+/*
+position: absolute;
+width: 34px;
+height: 34px;
+left: 703px;
+top: 2455px;
+
+
+
+/* icon/av/play_arrow_24px */
+/*
+position: absolute;
+left: 27.08%;
+right: 27.08%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #FFFFFF;
+
+
+/* Move */
+/*
+position: absolute;
+width: 24px;
+height: 24px;
+left: 660px;
+top: 2460px;
+
+
+
+/* icon/av/replay_30_24px */
+/*
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #FFFFFF;
+
+
+/* Shape */
+/*
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #DADADA;
+
+
+/* -10 */
+/*
+position: absolute;
+left: 33.33%;
+right: 33.33%;
+top: 54.17%;
+bottom: 29.17%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 5px;
+line-height: 7px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Volume */
+/*
+position: absolute;
+width: 124px;
+height: 24px;
+left: 376px;
+top: 2460px;
+
+
+
+/* volume_down_24px */
+/*
+position: absolute;
+width: 24px;
+height: 24px;
+left: 376px;
+top: 2460px;
+
+
+
+/* icon/av/volume_down_24px */
+/*
+position: absolute;
+left: 21.88%;
+right: 21.88%;
+top: 16.67%;
+bottom: 16.67%;
+
+background: #FFFFFF;
+
+
+/* Path */
+/*
+position: absolute;
+left: 67.71%;
+right: 21.88%;
+top: 33.21%;
+bottom: 33.25%;
+
+background: #DADADA;
+
+
+/* Path */
+/*
+position: absolute;
+left: 21.88%;
+right: 40.62%;
+top: 16.67%;
+bottom: 16.67%;
+
+background: #DADADA;
+
+
+/* Volume */
+/*
+position: absolute;
+width: 88px;
+height: 8px;
+left: 412px;
+top: 2468px;
+
+
+
+/* Rectangle 1 */
+/*
+position: absolute;
+width: 88px;
+height: 8px;
+left: 412px;
+top: 2468px;
+
+background: #C4C4C4;
+
+
+/* Rectangle 2 */
+/*
+position: absolute;
+width: 33px;
+height: 8px;
+left: 412px;
+top: 2468px;
+
+background: #6792FF;
+
+
+/* -03:34 */
+/*
+position: absolute;
+width: 48px;
+height: 20px;
+left: 302px;
+top: 2462px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* bola 1 */
+/*
+position: absolute;
+width: 312px;
+height: 312px;
+left: 1041px;
+top: 75px;
+
+background: url(.png);
+filter: drop-shadow(2px 4px 30px #B215C6);
+
+
+/* bola 4 */
+/*
+position: absolute;
+width: 243.14px;
+height: 243.14px;
+left: 303.83px;
+top: 810.44px;
+
+background: url(.png);
+filter: blur(4px) drop-shadow(2px 4px 30px #B215C6);
+transform: rotate(-105.22deg);
+
+
+/* bola 5 */
+/*
+position: absolute;
+width: 177.52px;
+height: 177.52px;
+left: 1106px;
+top: 1395.58px;
+
+background: url(.png);
+filter: blur(4px) drop-shadow(2px 4px 30px #B215C6);
+transform: rotate(-20.99deg);
+
+
+/* bola 3 */
+/*
+position: absolute;
+width: 141.16px;
+height: 141.16px;
+left: 1292.25px;
+top: 180px;
+
+background: url(.png);
+filter: blur(3px) drop-shadow(1px 4px 20px #4B2AE0);
+transform: rotate(60deg);
+
+
+/* bola 6 */
+/*
+position: absolute;
+width: 178px;
+height: 178px;
+left: 680px;
+top: 1019.72px;
+
+background: url(.png);
+filter: drop-shadow(2px 4px 30px #B215C6);
+transform: rotate(-40.98deg);
+
+
+/* bola 10 */
+/*
+position: absolute;
+width: 178px;
+height: 178px;
+left: 842px;
+top: 2600.72px;
+
+background: url(.png);
+filter: drop-shadow(2px 4px 30px #B215C6);
+transform: rotate(-40.98deg);
+
+
+/* bola 7 */
+/*
+position: absolute;
+width: 312px;
+height: 312px;
+left: 99.97px;
+top: 1632.26px;
+
+background: url(.png);
+filter: drop-shadow(2px 4px 30px #B215C6);
+transform: rotate(19.77deg);
+
+
+/* bola 12 */
+/*
+position: absolute;
+width: 207.98px;
+height: 207.98px;
+left: 548.33px;
+top: 2653.89px;
+
+background: url(.png);
+filter: drop-shadow(2px 4px 30px #4B2AE0);
+transform: rotate(100.59deg);
+
+
+/* bola 8 */
+/*
+position: absolute;
+width: 141.16px;
+height: 141.16px;
+left: 143px;
+top: 1736.58px;
+
+background: url(.png);
+filter: blur(3px) drop-shadow(1px 4px 20px #4B2AE0);
+transform: rotate(-30deg);
+
+
+/* bola 9 */
+/*
+position: absolute;
+width: 167.02px;
+height: 167.02px;
+left: 648.23px;
+top: 1636.94px;
+
+background: url(.png);
+filter: blur(3px) drop-shadow(1px 4px 20px #4B2AE0);
+transform: rotate(118.9deg);
+
+
+/* bola 11 */
+/*
+position: absolute;
+width: 167.02px;
+height: 167.02px;
+left: 963.94px;
+top: 2657.73px;
+
+background: url(.png);
+filter: blur(3px) drop-shadow(1px 4px 20px #4B2AE0);
+transform: rotate(118.9deg);
+
+
+/* Buttons swipe next */
+/*
+position: absolute;
+width: 62px;
+height: 10px;
+left: 39px;
+top: 356px;
+
+transform: rotate(90deg);
+
+
+/* Ellipse 3 */
+/*
+position: absolute;
+left: 16.13%;
+right: 67.74%;
+top: 520%;
+bottom: -520%;
+
+background: #8D8D8D;
+transform: rotate(90deg);
+
+
+/* Ellipse 2 */
+/*
+position: absolute;
+left: 16.13%;
+right: 67.74%;
+top: 260%;
+bottom: -260%;
+
+background: #8D8D8D;
+transform: rotate(90deg);
+
+
+/* Ellipse 1 */
+/*
+position: absolute;
+left: 16.13%;
+right: 67.74%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+transform: rotate(90deg);
+
+
+/* facebook */
+/*
+position: absolute;
+width: 86px;
+height: 65px;
+left: 146px;
+top: 2850px;
+
+
+
+/* Vector */
+/*
+position: absolute;
+width: 86px;
+height: 65px;
+left: 146px;
+top: 2850px;
+
+background: radial-gradient(50% 50% at 50% 50%, #5D46F9 0%, #C58CFE 100%);
+box-shadow: 4px 4px 20px #4B2AE0;
+
+
+/* Vector */
+/*
+position: absolute;
+left: 12.57%;
+right: 86.32%;
+top: 95.03%;
+bottom: 3.91%;
+
+background: #FFFFFF;
+
+
+/* instagram */
+/*
+position: absolute;
+width: 74px;
+height: 68px;
+left: 277px;
+top: 2848px;
+
+
+
+/* Vector */
+/*
+position: absolute;
+width: 74px;
+height: 68px;
+left: 277px;
+top: 2848px;
+
+background: radial-gradient(50% 50% at 50% 50%, #5B45F9 0%, #D899FF 100%);
+box-shadow: 4px 4px 20px #4B2AE0;
+
+
+/* Group */
+/*
+position: absolute;
+left: 20.76%;
+right: 77.15%;
+top: 95.06%;
+bottom: 3.95%;
+
+
+
+/* Vector */
+/*
+position: absolute;
+left: 20.76%;
+right: 77.15%;
+top: 95.06%;
+bottom: 3.95%;
+
+background: #FFFFFF;
+
+
+/* twitter */
+/*
+position: absolute;
+width: 83px;
+height: 76px;
+left: 393px;
+top: 2844px;
+
+
+
+/* Vector */
+/*
+position: absolute;
+width: 83px;
+height: 76px;
+left: 393px;
+top: 2844px;
+
+background: radial-gradient(50% 50% at 50% 50%, #5C59FF 0%, #BC86FE 100%);
+box-shadow: 4px 4px 20px #4B2AE0;
+
+
+/* Group */
+/*
+position: absolute;
+left: 29.38%;
+right: 68.51%;
+top: 95.11%;
+bottom: 4.07%;
+
+
+
+/* Vector */
+/*
+position: absolute;
+left: 29.38%;
+right: 68.51%;
+top: 95.11%;
+bottom: 4.07%;
+
+background: #FFFFFF;
+
+
+/* We are back! */
+.text h2{
+    position: absolute;
+    width: 1003px;
+    height: 129px;
+    left: 218px;
+    top: 1107px;
+    
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 86px;
+    line-height: 129px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+
+
+/* Shift Just Got Real */
+.title h3{
+    position: absolute;
+    width: 831.33px;
+    height: 129px;
+    left: 304px;
+    top: 457px;
+    
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+
+
+/* Made w love */
+/*
+position: absolute;
+left: 44.72%;
+right: 44.79%;
+top: 94.63%;
+bottom: 3.45%;
+
+
+
+/* Made with love by us */
+/*
+position: absolute;
+left: 44.72%;
+right: 44.79%;
+top: 95.99%;
+bottom: 3.45%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+/* or 179% */
+/*
+text-align: right;
+
+color: #FFFFFF;
+
+
+
+/* Group 1 */
+/*
+position: absolute;
+width: 83px;
+height: 32px;
+left: 679px;
+top: 2854px;
+
+
+
+/* nei */
+/*
+position: absolute;
+left: 47.15%;
+right: 50.62%;
+top: 94.63%;
+bottom: 4.31%;
+
+background: url(.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* jeK */
+/*
+position: absolute;
+left: 50.69%;
+right: 47.08%;
+top: 94.63%;
+bottom: 4.31%;
+
+background: url(.png);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
