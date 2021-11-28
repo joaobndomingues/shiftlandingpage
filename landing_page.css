@@ -10,36 +10,38 @@ body {
 
 #home{
     position: relative;
-    width: 1440px;
+    /* width: 1440px; */
     height: 3016px;
-
     background: linear-gradient(15.88deg, #B215C6 0%, #4B2AE0 100%);
+
 }
 
 
-/* forma 1 */
+/* forma 1 - canto superior esquerdo */
 #forma1{
     position: relative;
-    width: 520px;
-    height: 1350px;
+    width: 36.11%;
+    height: 44.76%;
     left: 0%;
-    top: -350px;
+    top: -11.60%;
 
     font-size: 2rem;
 
     box-shadow: 0px 4px 30px 1px rgba(143, 28, 207, 0.3);
 }
 
-/* forma 2 */
+/* forma 2 - canto superior esquerdo */
 #forma2{
     position: relative;
-    width: 520px;
-    height: 1350px;
-    left: -525px;
-    top: -350px;
+    width: 36.11%;
+    height: 44.76%;
+    left: -36.45%;
+    top: -11.60%;
     
     filter: drop-shadow(0px 4px 20px #4B2AE0);
 }
+
+
 
 
 
@@ -95,12 +97,12 @@ filter: drop-shadow(0px 4px 30px #4B2AE0);
 transform: matrix(0.87, 0.5, 0.5, -0.87, 0, 0);
 
 
-/* perfil s:fundo 1 */
+/* LOGO:  combinação de 3 bolhas + um logo */
 .logo #bolha1{
     position: absolute;
     width: 107px;
     height: 107px;
-    left: 666px;
+    left: 46.25%;
     top: 22px;
 }
 
@@ -108,7 +110,7 @@ transform: matrix(0.87, 0.5, 0.5, -0.87, 0, 0);
     position: absolute;
     width: 107px;
     height: 107px;
-    left: 666px;
+    left: 46.25%;
     top: 22px;
 }
 
@@ -116,7 +118,7 @@ transform: matrix(0.87, 0.5, 0.5, -0.87, 0, 0);
     position: absolute;
     width: 107px;
     height: 107px;
-    left: 666px;
+    left: 46.25%;
     top: 22px;
 }
 
@@ -124,7 +126,7 @@ transform: matrix(0.87, 0.5, 0.5, -0.87, 0, 0);
     position: absolute;
     width: 107px;
     height: 107px;
-    left: 666px;
+    left: 46.25%;
     top: 22px;
 }
 
@@ -132,16 +134,17 @@ transform: matrix(0.87, 0.5, 0.5, -0.87, 0, 0);
 /* Hi! Have you met Shift APPens? It’s a Hackathon, organized by NEI and jeKnowledge with love. Come join us at Coimbra, the well known city of students, bring your friends or your co-workers, and get ready for some fun, competition and companionship! Don’t miss out on this opportunity, come be a part of Shift APPens’s History! A little tip: you can start by clicking the blue button below. */
 .text p{
     position: absolute;
-    width: 787px;
-    height: 333px;
-    left: 326px;
-    top: 1261px;
-    
+    width: 54.63%;
+    height: 11.04%;
+    left: 22.64%;
+    top: 41.81%;
+
+    margin-top: 8%;
     font-family: "Hind", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
-    line-height: 27px;
+    font-size: 2vw;
+    line-height: 2vw;
     /* or 108% */
 
     text-align: center;
@@ -242,10 +245,10 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 /* Shift Appens */
 #name {
     position: absolute;
-    width: 743.13px;
-    height: 131px;
-    left: 348.44px;
-    top: 322px;
+    width: 51.60%;
+    height: 4.34%;
+    left: 24.197%;
+    top: 10.67%;
 }
 
 
@@ -693,10 +696,10 @@ color: #FFFFFF;
 /* bola 1 */
 #bola1{
     position: absolute;
-    width: 312px;
-    height: 312px;
-    left: 1041px;
-    top: 75px;
+    width: 22.66%;
+    height: 22.66%;
+    left: 72.29%;
+    top: -2.48%;
     
     filter: drop-shadow(2px 4px 30px #B215C6);
 }
@@ -705,10 +708,10 @@ color: #FFFFFF;
 /* bola 4 */
 #bola4{
     position: absolute;
-    width: 370px;
-    height: 370px;
-    left: 220px;
-    top: 500px;
+    width: 25.69%;
+    height: 12.27%;
+    left: 15.28%;
+    top: 16.58%;
     
     filter: blur(1.5px) drop-shadow(2px 4px 30px #B215C6);
     transform: rotate(-105.22deg);
@@ -731,10 +734,10 @@ transform: rotate(-20.99deg);
 /* bola 3 */
 #bola3{
     position: absolute;
-    width: 200px;
-    height: 200px;
-    left: 1150px;
-    top: 170px;
+    width: 13.88%;
+    height: 6.63%;
+    left: 80.0%;
+    top: 6.25%;
     
     filter: blur(1px) drop-shadow(1px 4px 20px #4B2AE0);
     transform: rotate(60deg);
@@ -1001,16 +1004,16 @@ background: #FFFFFF;
 /* We are back! */
 .text h2{
     position: absolute;
-    width: 1003px;
-    height: 129px;
-    left: 218px;
-    top: 1107px;
+    width: 69.65%;
+    height: 4.28%;
+    left: 15.14%;
+    top: 36.70%;
     
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 86px;
-    line-height: 129px;
+    font-size: 7vw;
+    line-height: 7vw;
     /* identical to box height */
 
     text-align: center;
@@ -1020,19 +1023,18 @@ background: #FFFFFF;
 }
 
 
-
 /* Shift Just Got Real */
 .title h3{
     position: absolute;
-    width: 831.33px;
-    height: 129px;
-    left: 304px;
-    top: 420px;
+    width: 57.77%;
+    height: 4.27%;
+    left: 21.11%;
+    top: 13.92%;
     
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 3.5vw;
     line-height: 75px;
     text-align: center;
     letter-spacing: 0.02em;
