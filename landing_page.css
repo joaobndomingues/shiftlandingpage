@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Poppins'); 
+@import url('https://fonts.googleapis.com/css?family=Hind'); 
 
 body {
     position: absolute;
     width: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 /* landing page 2 */
@@ -11,19 +14,21 @@ body {
 #home{
     position: relative;
     /* width: 1440px; */
+    /*PODE SER PRECISO AUMENTAR A HEIGHT PARA CABER TUDO COM AS DISTANCIAS QUE QUEREMOS*/
     height: 3016px;
     background: linear-gradient(15.88deg, #B215C6 0%, #4B2AE0 100%);
 
+    text-align: center;
 }
 
 
 /* forma 1 - canto superior esquerdo */
 #forma1{
     position: relative;
-    width: 36.11%;
-    height: 44.76%;
-    left: 0%;
-    top: -11.60%;
+    width: 38.11%;
+    height: 45.76%;
+    left: -14%;
+    top: -12.60%;
 
     font-size: 2rem;
 
@@ -35,8 +40,8 @@ body {
     position: relative;
     width: 36.11%;
     height: 44.76%;
-    left: -36.45%;
-    top: -11.60%;
+    left: -52.45%;
+    top: -12.80%;
     
     filter: drop-shadow(0px 4px 20px #4B2AE0);
 }
@@ -46,29 +51,28 @@ body {
 
 
 /* forma 5 */
-/*
-position: absolute;
-width: 958.5px;
-height: 958.5px;
-left: 740.5px;
-top: 691px;
+#forma5{
+    position: absolute;
+    width: 53%;
+    height: 49%;
+    left: -3%;
+    top: 20%;
+    
+    box-shadow: 0px 4px 30px 1px rgba(143, 28, 207, 0.3);
+    transform: rotate(3deg);
+}
 
-background: url(.png);
-box-shadow: 0px 4px 30px 1px rgba(143, 28, 207, 0.3);
-transform: rotate(90deg);
-*/
 
 /* forma 6 */
-/*
-position: absolute;
-width: 813.71px;
-height: 813.71px;
-left: 634.97px;
-top: 746.98px;
-
-background: url(.png);
-filter: drop-shadow(0px 4px 30px #4B2AE0);
-transform: rotate(90deg);
+#forma6{
+    position: absolute;
+    width: 44%;
+    height: 46%;
+    left: -2%;
+    top: 20.5%;
+    
+    filter: drop-shadow(0px 4px 30px #4B2AE0);
+}
 
 
 /* forma 10 */
@@ -134,13 +138,13 @@ transform: matrix(0.87, 0.5, 0.5, -0.87, 0, 0);
 /* Hi! Have you met Shift APPens? It’s a Hackathon, organized by NEI and jeKnowledge with love. Come join us at Coimbra, the well known city of students, bring your friends or your co-workers, and get ready for some fun, competition and companionship! Don’t miss out on this opportunity, come be a part of Shift APPens’s History! A little tip: you can start by clicking the blue button below. */
 .text p{
     position: absolute;
-    width: 54.63%;
-    height: 11.04%;
-    left: 22.64%;
-    top: 41.81%;
+    width: 65.63%;
+    height: 10.04%;
+    left: 16.64%;
+    top: 43.50%;
 
     margin-top: 8%;
-    font-family: "Hind", sans-serif;
+    font-family: "Hind";
     font-style: normal;
     font-weight: 500;
     font-size: 2vw;
@@ -155,38 +159,49 @@ transform: matrix(0.87, 0.5, 0.5, -0.87, 0, 0);
 
 
 /* Button */
-/*
-position: absolute;
-width: 143px;
-height: 45px;
-left: 648px;
-top: 1486px;
+.button{
+    position: absolute;
+    width: 10%;
+    height: 1.5%;
+    left: 45%;
+    top: 57%;
+    
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-decoration: none;
 
-background: linear-gradient(90deg, #4053FF 0%, #2131C4 100%);
-box-shadow: 0px 3px 2px rgba(255, 255, 255, 0.1);
-border-radius: 16px;
+    background: linear-gradient(90deg, #4053FF 0%, #2131C4 100%);
+    box-shadow: 0px 3px 2px rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+}
 
 
 /* CLICK ME */
 /*
-position: absolute;
-left: 22.38%;
-right: 22.38%;
-top: 35.56%;
-bottom: 35.56%;
+.button h4{
+    position: absolute;
+    left: 22.38%;
+    right: 22.38%;
+    top: 35.56%;
+    bottom: 35.56%;
+    
+    font-family: Hind;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+    /*
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-font-family: Hind;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 25px;
-/* or 139% */
-/*
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
+    color: #FFFFFF;
+}
 
 
 
@@ -254,36 +269,40 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 
 
 /* forma 3 */
-/*
-position: absolute;
-width: 1103px;
-height: 1104px;
-left: 710px;
-top: 350px;
-
-background: url(.png);
-filter: drop-shadow(0px 4px 30px #B215C6);
+#forma3 {
+    position: absolute;
+    width: 1103px;
+    height: 1104px;
+    left: 40%;
+    top: 15%;
+    
+    filter: drop-shadow(0px 4px 30px #B215C6);
+}
 
 
 /* forma 4 */
-/*
-position: absolute;
-width: 1103px;
-height: 1104px;
-left: 740px;
-top: 276px;
-
-background: url(.png);
-filter: drop-shadow(0px 4px 30px #4B2AE0);
+#forma4 {
+    position: absolute;
+    width: 1103px;
+    height: 1104px;
+    left: 40%;
+    top: 13%;
+    
+    filter: drop-shadow(0px 4px 30px #4B2AE0);
+}
 
 
 /* video past year */
-/*
-position: absolute;
-width: 900px;
-height: 492px;
-left: 270px;
-top: 2004px;
+
+video.center {
+    position: absolute;
+    width: 50%;
+    height:15%;
+    left: 25%;
+    top: 70%;
+
+}
+
 
 
 
@@ -699,7 +718,7 @@ color: #FFFFFF;
     width: 22.66%;
     height: 22.66%;
     left: 72.29%;
-    top: -2.48%;
+    top: -4.48%;
     
     filter: drop-shadow(2px 4px 30px #B215C6);
 }
@@ -713,22 +732,22 @@ color: #FFFFFF;
     left: 15.28%;
     top: 16.58%;
     
-    filter: blur(1.5px) drop-shadow(2px 4px 30px #B215C6);
+    filter: blur(1px) drop-shadow(2px 4px 30px #B215C6);
     transform: rotate(-105.22deg);
 }
 
 
 /* bola 5 */
-/*
-position: absolute;
-width: 177.52px;
-height: 177.52px;
-left: 1106px;
-top: 1395.58px;
-
-background: url(.png);
-filter: blur(4px) drop-shadow(2px 4px 30px #B215C6);
-transform: rotate(-20.99deg);
+#bola5{
+    position: absolute;
+    width: 25%;
+    height: 23%;
+    left: 75%;
+    top: 43.5%;
+    
+    filter: blur(2.5px) drop-shadow(2px 4px 30px #B215C6);
+    transform: rotate(-20.99deg);
+}
 
 
 /* bola 3 */
@@ -736,8 +755,8 @@ transform: rotate(-20.99deg);
     position: absolute;
     width: 13.88%;
     height: 6.63%;
-    left: 80.0%;
-    top: 6.25%;
+    left: 81.0%;
+    top: 4.25%;
     
     filter: blur(1px) drop-shadow(1px 4px 20px #4B2AE0);
     transform: rotate(60deg);
@@ -745,16 +764,16 @@ transform: rotate(-20.99deg);
 
 
 /* bola 6 */
-/*
-position: absolute;
-width: 178px;
-height: 178px;
-left: 680px;
-top: 1019.72px;
-
-background: url(.png);
-filter: drop-shadow(2px 4px 30px #B215C6);
-transform: rotate(-40.98deg);
+#bola6{
+    position: absolute;
+    width: 25%;
+    height: 23%;
+    left: 45%;
+    top: 26%;
+    
+    filter: drop-shadow(2px 4px 30px #B215C6);
+    transform: rotate(-40.98deg);
+}
 
 
 /* bola 10 */
@@ -1007,9 +1026,9 @@ background: #FFFFFF;
     width: 69.65%;
     height: 4.28%;
     left: 15.14%;
-    top: 36.70%;
+    top: 38.70%;
     
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-style: normal;
     font-weight: bold;
     font-size: 7vw;
@@ -1031,7 +1050,7 @@ background: #FFFFFF;
     left: 21.11%;
     top: 13.92%;
     
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-style: normal;
     font-weight: bold;
     font-size: 3.5vw;
