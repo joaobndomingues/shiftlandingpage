@@ -15,7 +15,7 @@ body {
     position: relative;
     /* width: 1440px; */
     /*PODE SER PRECISO AUMENTAR A HEIGHT PARA CABER TUDO COM AS DISTANCIAS QUE QUEREMOS*/
-    height: 3016px;
+    height: 3516px;
     background: linear-gradient(15.88deg, #B215C6 0%, #4B2AE0 100%);
 
     text-align: center;
@@ -162,9 +162,9 @@ transform: matrix(0.87, 0.5, 0.5, -0.87, 0, 0);
 .button{
     position: absolute;
     width: 10%;
-    height: 1.5%;
+    height: 1.25%;
     left: 45%;
-    top: 60%;
+    top: 56%;
     
     font-family: "Hind", sans-serif;
     font-style: normal;
@@ -232,16 +232,16 @@ transform: rotate(90deg);
 
 
 /* forma 8 */
-/*
-position: absolute;
-width: 1014px;
-height: 1014px;
-left: 1455.89px;
-top: 1597.44px;
-
-background: url(.png);
-filter: drop-shadow(0px 4px 20px #4B2AE0);
-transform: matrix(-0.97, -0.26, -0.26, 0.97, 0, 0);
+#forma8{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    left: 25%;
+    top: 70%;
+    
+    filter: drop-shadow(0px 4px 20px #4B2AE0);
+    transform: matrix(-0.97, -0.26, -0.26, 0.97, 0, 0);
+}
 
 
 /* forma 9 */
@@ -297,7 +297,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 video.center {
     position: absolute;
     width: 50%;
-    height:15%;
+    height:13%;
     left: 25%;
     top: 70%;
 
@@ -790,16 +790,16 @@ transform: rotate(-40.98deg);
 
 
 /* bola 7 */
-/*
-position: absolute;
-width: 312px;
-height: 312px;
-left: 99.97px;
-top: 1632.26px;
-
-background: url(.png);
-filter: drop-shadow(2px 4px 30px #B215C6);
-transform: rotate(19.77deg);
+#bola7{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    left: -8%;
+    top: 50%;
+    
+    filter: drop-shadow(2px 4px 30px #B215C6);
+    transform: rotate(19.77deg);
+}
 
 
 /* bola 12 */
@@ -816,29 +816,29 @@ transform: rotate(100.59deg);
 
 
 /* bola 8 */
-/*
-position: absolute;
-width: 141.16px;
-height: 141.16px;
-left: 143px;
-top: 1736.58px;
-
-background: url(.png);
-filter: blur(3px) drop-shadow(1px 4px 20px #4B2AE0);
-transform: rotate(-30deg);
+#bola8{
+    position: absolute;
+    width: 13%;
+    height: 12%;
+    left: 16%;
+    top: 56%;
+    
+    filter: blur(3px) drop-shadow(1px 4px 20px #4B2AE0);
+    transform: rotate(-30deg);
+}
 
 
 /* bola 9 */
-/*
-position: absolute;
-width: 167.02px;
-height: 167.02px;
-left: 648.23px;
-top: 1636.94px;
-
-background: url(.png);
-filter: blur(3px) drop-shadow(1px 4px 20px #4B2AE0);
-transform: rotate(118.9deg);
+#bola9{
+    position: absolute;
+    width: 15%;
+    height: 13%;
+    left: 27%;
+    top: 52%;
+    
+    filter: blur(2px) drop-shadow(1px 4px 20px #4B2AE0);
+    transform: rotate(118.9deg);
+}
 
 
 /* bola 11 */
@@ -900,16 +900,44 @@ bottom: 0%;
 background: #FFFFFF;
 transform: rotate(90deg);
 
+/*footer*/
+footer{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* facebook */
-/*
-position: absolute;
-width: 86px;
-height: 65px;
-left: 146px;
-top: 2850px;
+#facebook{
+    position: absolute;
+    width: 7%;
+    height: 5%;
+    top: 93.5%;
+    left: 10%;
+}
 
+/* twitter */
+#twitter{
+    position: absolute;
+    width: 7%;
+    height: 5%;
+    top: 93.5%;
+    left: 26%;
+}
 
+/* instagram */
+#instagram{
+    position: absolute;
+    width: 7%;
+    height: 5%;
+    top: 93.5%;
+    left: 18%;
+}
 
 /* Vector */
 /*
@@ -932,15 +960,6 @@ top: 95.03%;
 bottom: 3.91%;
 
 background: #FFFFFF;
-
-
-/* instagram */
-/*
-position: absolute;
-width: 74px;
-height: 68px;
-left: 277px;
-top: 2848px;
 
 
 
@@ -975,15 +994,6 @@ top: 95.06%;
 bottom: 3.95%;
 
 background: #FFFFFF;
-
-
-/* twitter */
-/*
-position: absolute;
-width: 83px;
-height: 76px;
-left: 393px;
-top: 2844px;
 
 
 
@@ -1074,23 +1084,25 @@ bottom: 3.45%;
 
 
 /* Made with love by us */
-/*
-position: absolute;
-left: 44.72%;
-right: 44.79%;
-top: 95.99%;
-bottom: 3.45%;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 25px;
+#made{
+    position: absolute;
+    left: 44.72%;
+    right: 44.79%;
+    top: 95.99%;
+    bottom: 3.45%;
+    
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+}
 /* or 179% */
 /*
 text-align: right;
 
-color: #FFFFFF;
 
 
 
@@ -1105,24 +1117,24 @@ top: 2854px;
 
 
 /* nei */
-/*
-position: absolute;
-left: 47.15%;
-right: 50.62%;
-top: 94.63%;
-bottom: 4.31%;
-
-background: url(.png);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+#nei{
+    position: absolute;
+    left: 47.15%;
+    right: 50.62%;
+    top: 94.63%;
+    bottom: 4.31%;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 
 
 /* jeK */
-/*
-position: absolute;
-left: 50.69%;
-right: 47.08%;
-top: 94.63%;
-bottom: 4.31%;
-
-background: url(.png);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+#jeK{
+    position: absolute;
+    left: 50.69%;
+    right: 47.08%;
+    top: 94.63%;
+    bottom: 4.31%;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
