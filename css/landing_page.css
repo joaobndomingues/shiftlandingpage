@@ -1,16 +1,16 @@
 
 @font-face {
-    src: url('./fonts/Poppins/Poppins-Bold.ttf');
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
     font-family: Poppins-bold;
   
   }
   @font-face {
     font-family: Hind;
-    src: url('./fonts/Hind/Hind-Medium.ttf');
+    src: url('../fonts/Hind/Hind-Medium.ttf');
   }
   @font-face {
     font-family: Hind-light;
-    src: url('./fonts/Hind/Hind-Light.ttf');
+    src: url('../fonts/Hind/Hind-Light.ttf');
   }
 
 /* landing page 2 */
@@ -32,7 +32,7 @@ body {
     /*position: re;*/
     width: 100%;
     overflow-x: hidden;
-    background-image: url("./images/backgrounds/fundoexp2.png");
+    background-image: url("../images/backgrounds/fundoexp2.png");
     /*text-align: center;*/
     /*background: linear-gradient(15.88deg, #B215C6 0%, #4B2AE0 100%);*/
 }
@@ -264,14 +264,14 @@ body {
 /*---------------------------------- Mobile -------------------------------------------------------*/
 @media screen and (max-width: 1550px){
     body{
-        background-image: url("./images/backgrounds/fundoexp.png");
+        background-image: url("../images/backgrounds/fundoexp.png");
     }
 }
 
 
 @media screen and (max-width: 600px){
     body{
-        background-image: url("./images/backgrounds/fundototalmobile.jpg");
+        background-image: url("../images/backgrounds/fundototalmobile.jpg");
         background-size: cover;
     }
 
