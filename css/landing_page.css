@@ -1,0 +1,429 @@
+
+@font-face {
+    src: url('./fonts/Poppins/Poppins-Bold.ttf');
+    font-family: Poppins-bold;
+  
+  }
+  @font-face {
+    font-family: Hind;
+    src: url('./fonts/Hind/Hind-Medium.ttf');
+  }
+  @font-face {
+    font-family: Hind-light;
+    src: url('./fonts/Hind/Hind-Light.ttf');
+  }
+
+/* landing page 2 */
+html{
+    min-height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    /*position: re;*/
+    /*width: 100%;
+    text-align: center;
+    /*background: linear-gradient(15.88deg, #B215C6 0%, #4B2AE0 100%);
+    background-image: url("./images/backgrounds/fundototal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;*/
+
+    /*position: re;*/
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url("./images/backgrounds/fundoexp2.png");
+    /*text-align: center;*/
+    /*background: linear-gradient(15.88deg, #B215C6 0%, #4B2AE0 100%);*/
+}
+
+/*------------------------FIRST SECTION------------------------*/
+
+.navbar{
+    top: 50%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: 2%;
+}
+
+.navbar a{
+    height: 10px;
+    width: 10px;
+    background-color: #8D8D8D;
+    border-radius: 50%;
+    margin-bottom: 150%;
+}
+
+.navbar a.active{
+    background-color: white;
+    transition: 0.3 ease background-color;
+}
+
+#sectiontitle{
+    display: flex;
+    height: 122vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* perfil s:fundo 1 */
+#sectiontitle #logo{
+    position: relative;
+    display: block;
+    width: 16%;
+    height: 16%;
+    /*left: 666px;*/
+    top: -25%;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title {
+    /*position: relative;*/
+    /*top: 20%;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Shift Just Got Real */
+#sectiontitle h3{
+    /*position: absolute;*/
+    /*width: 831.33px;
+    height: 129px;*/
+    /*left: 304px;*/
+    /*top: 457px;*/
+
+    font-family: Poppins-bold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    /*text-align: center;*/
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+
+
+/*------------------------SECOND SECTION------------------------*/
+#sectiontext{
+    display: flex;
+    height: 122vh;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    margin-bottom: 2%;
+}
+
+
+/* Shift just got real */
+.text h2{
+    /*position: relative;*/
+    /*position: absolute;
+    width: 1003px;
+    height: 129px;
+    left: 218px;
+    top: 1107px;*/
+    text-align: center;
+    
+    font-family: Poppins-bold, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 86px;
+    line-height: 129px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+.txt{
+    width: 65vw;
+    margin-right: 17.5vw;
+    margin-left: 17.5vw;
+}
+
+/* Hi! Have you met Shift APPens? It’s a Hackathon, organized by NEI and jeKnowledge with love. Come join us at Coimbra, the well known city of students, bring your friends or your co-workers, and get ready for some fun, competition and companionship! Don’t miss out on this opportunity, come be a part of Shift APPens’s History! A little tip: you can start by clicking the blue button below. */
+.txt p{
+    /*position: absolute;
+    width: 787px;
+    height: 333px;
+    left: 326px;
+    top: 1261px;*/
+    
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 27px;
+    /* or 108% */
+
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+/* Button */
+#sectiontext a{
+    width: 10vw;
+    /*position: absolute;
+    height: 45px;
+    left: 648px;
+    top: 1486px;*/
+    
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    background: linear-gradient(90deg, #4053FF 0%, #2131C4 100%);
+    box-shadow: 0px 3px 2px rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+
+    text-align: center;
+}
+
+
+/*------------------------THIRD SECTION------------------------*/
+#sectionvid{
+    height: 122vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sectionvid h2{
+    /* Last year */
+
+    /*
+    position: absolute;
+    width: 1003px;
+    height: 129px;
+    left: 219px;
+    top: 1848px;
+    */
+
+    font-family: Poppins-bold, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 86px;
+    line-height: 129px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.vid {
+    height: 80vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Video*/ 
+.vid video{
+    /*position: absolute;*/
+    width: 60%;
+    /*left: 270px;
+    top: 2004px;/
+    /display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    border-radius: 18px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+
+
+/*---------------------------------- Mobile -------------------------------------------------------*/
+@media screen and (max-width: 1550px){
+    body{
+        background-image: url("./images/backgrounds/fundoexp.png");
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    body{
+        background-image: url("./images/backgrounds/fundototalmobile.jpg");
+        background-size: cover;
+    }
+
+    
+
+    #sectiontitle #logo{
+        width: 40%;
+    }
+
+    #name{
+        width: 70%;
+    }
+
+    #sectiontitle h3{
+        font-size: 20px;
+    }
+
+    .text h2{
+        font-size: 40px;
+    }
+
+    .txt p{
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    #sectiontext a{
+        width: 40%;
+    }
+
+    #sectionvid h2{
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .vid{
+        width: 100%;
+    }
+
+    .vid video{
+        width: 90%;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    .social, .madeby, .help{
+        width: 100%;
+    }
+
+    footer .social{
+        order: 1;
+    }
+
+    footer .madeby{
+        text-align: center;
+        order: 0;
+    }
+
+    footer .help{
+        order: 2;
+    }
+
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
+
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+}
+
+footer > * {
+    flex: 1 1 0;
+  }
+
+.social , .madeby , .help{
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    width: 100%/3;
+  }
+
+footer .social{
+    display: flex;
+    justify-content: center;
+    /*margin-left: 5%;*/
+}
+
+
+footer .help{
+    display: flex;
+
+}
+
+
+
+/* Made w love */
+footer .madeby{
+    display: flex;
+    /*left: 44.72%;
+    right: 44.79%;
+    top: 94.63%;
+    bottom: 3.45%;*/
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/* Made with love by us */
+.madeby p{
+    /*position: absolute;
+    left: 44.72%;
+    right: 44.79%;
+    top: 95.99%;
+    bottom: 3.45%;*/
+    
+    font-family: Poppins-bold, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.madeby_img{
+    display: flex;
+    justify-content: center;
+}
+
+/* nei */
+.madeby_img img{
+    /*position: absolute;
+    left: 47.15%;
+    right: 50.62%;
+    top: 94.63%;
+    bottom: 4.31%;*/
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+    cursor: pointer;
+}

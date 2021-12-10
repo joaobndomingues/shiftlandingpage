@@ -2,67 +2,60 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="landing_page.css">
+    <link rel="stylesheet" href="./css/landing_page.css"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shift Appens</title>
+
 </head>
 
 <body>
+    <div class="navbar">
+        <a class="sectiontitle active" href="#sectiontitle"></a>
+        <a class="sectiontext" href="#sectiontext"></a>
+        <a class="sectionvid" href="#sectionvid"></a>
+    </div>
 
-    <section id="home">
-        <div class="logo">
-            <img id="bolha1" src="./images/logos/bolha 1.svg" alt="">
-            <img id="bolha2" src="./images/logos/bolha 2.svg" alt="">
-            <img id="bolha3" src="./images/logos/bolha 3.svg" alt="">
-            <img id="log" src="./images/logos/logo mini bolha 1.svg" alt="">
-        </div>
-
+    <section id="sectiontitle">
+        <img id="logo" src="./images/logos/perfil s_fundo 1.svg" alt="shiftappens logo">
         
-        <img id="forma1" src="./images/formas/forma1.svg" alt="">
-        <img id="forma2" src="./images/formas/forma2.svg" alt="">
-        
-
         <div class="title">   
             <img id="name" src="./images/logos/Shift Appens.svg" alt="">
-            <h3>SHIFT JUST GOT REAL</h3>
+            <!--<h3>SHIFT JUST GOT REAL</h3>-->
         </div>
 
-        <img id="bola1" src="./images/bolas/bola 1.svg" alt="">
+    </section>
 
-        <img id="bola3" src="./images/bolas/bola 3.svg" alt="">
-
-
-        <img id="bola4" src="./images/bolas/bola 4.svg" alt="">
-
-        <img id="forma4" src="./images/formas/forma 4.svg" alt="">
-        <img id="forma3" src="./images/formas/forma 3.svg" alt="">
-    
-        <img id="bola6" src="./images/bolas/bola 6.svg" alt="">
-
-        <img id="forma5" src="./images/formas/forma 5.svg" alt="">
-        <img id="forma6" src="./images/formas/forma 6.svg" alt="">
+    <section id="sectiontext">
 
         <div class="text">
-            <h2>Shift Just Got Real</h2>
-            <p id="description">Shift APPens is back and better than ever! A Hackathon, organized by jeKnowledge and NEI/AAC, which brings together designers, developers and entrepreneurs from the most diverse technological areas, is gearing up to deliver one of the best editions in the history of the event! Get ready for an amazing competition with lots of entertainment and many surprises! All we need is your presence! Bring your friends or co-workers and witness one of the most fun events of the year.
-                Still not convinced? Click the button below to witness a glimpse of what Shift APPens has to offer.</p>
+           <!-- <h2>Shift Just Got Real</h2>-->
+
+            <div class="txt">
+                <p>Shift APPens is back and better than ever! A Hackathon, organized by jeKnowledge and NEI/AAC, which brings together designers, developers and entrepreneurs from the most diverse technological areas, is gearing up to deliver one of the best editions in the history of the event! Get ready for an amazing competition with lots of entertainment and many surprises! All we need is your presence! Bring your friends or co-workers and witness one of the most fun events of the year.
+                    <br>
+                    <br>
+                    Still not convinced? Click the button below to witness a glimpse of what Shift APPens has to offer.
+                </p>
+            </div>
         </div>
-    
-        <img id="bola5" src="./images/bolas/bola 5.svg" alt="">
 
         <a class="button" href="https://www.shiftappens.com/">
             CLICK ME
         </a>
 
-        <img id="bola9" src="./images/bolas/bola 6.svg" alt="">
+    </section>
 
-        <img id="bola7" src="./images/bolas/bola 6.svg" alt="">
-        <img id="bola8" src="./images/bolas/bola 6.svg" alt="">
+    <section id="sectionvid">
 
-        <img id="forma8" src="./images/formas/forma 9.svg" alt="">
-        <img id="forma9" src="./images/formas/forma 9.svg" alt="">
+        <h2>Last Year</h2>
 
-        <video class="center" controls>
-            <source src="./images/video/shift fim FINAL.mp4">
-        </video>
+        <div class="vid">
+            <video controls>
+                <source src="./images/video/shift fim FINAL.mp4">
+            </video>
+        </div>
 
     </section>
 
@@ -73,14 +66,19 @@
             <a href="https://twitter.com/shiftappens?lang=en"><img id="twitter" src="./images/logos/twitter.svg" alt=""></a>
         </div>
 
-        <div class="made">
-            <a href="https://www.facebook.com/shiftappens21"><img id="nei" src="./images/logos/nei.svg" alt=""></a>
-            <a href="https://jeknowledge.pt/"><img id="jeK" src="./images/logos/jeK.svg" alt=""></a>
-            <p id="made">Made with <u>love</u> by us</p>
+        <div class="madeby">
+            <div class="madeby_img">
+                <a href=""><img id="nei" src="./images/logos/nei.svg" alt=""></a>
+                <a href="https://jeknowledge.pt/"><img id="jeK" src="./images/logos/jeK.svg" alt=""></a>
+            </div>
+            <p>Made with <u>love</u> by us</p>
         </div>
 
-
+        <div class="help"></div>
     </footer>
 
+    
+    <script src="./js/navbar.js"></script>
+    
 </body>
 </html>
