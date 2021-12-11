@@ -12,12 +12,10 @@ window.addEventListener('scroll', () =>{
             current = section.getAttribute('id');
         }
     })
-    console.log(current)
 
     navA.forEach(a =>{
         a.classList.remove('active');
         if(a.classList.contains(current)){
-            console.log("FABIO")
             a.classList.add('active')
         }
     })
